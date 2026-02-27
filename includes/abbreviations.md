@@ -1,0 +1,1 @@
+*[CTI]: Current time indicator

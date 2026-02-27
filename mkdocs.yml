@@ -1,0 +1,97 @@
+site_name: Rob Barrett Design - Script Documentation
+#site_url: https://docs.rob-barrett.com
+site_url: https://automotiontools.github.io/docs/
+theme:
+  name: material
+  language: en
+  font:
+    #text: "Parkinsans"
+    #text: "Parkinsans"
+    code: JetBrains Mono
+  palette:
+    scheme: default
+    primary: indigo
+    accent: pink
+  logo: assets/Rob Barrett Design - Icon White - 256x256.png
+  favicon: assets/Rob Barrett Design - Icon White - 32x32.png
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - content.tooltips
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - abbr
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+  - md_in_html
+
+extra:
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/automotiontools
+      name: Automotion on Twitter/X
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/robbarrett.design
+      name: Rob Barrett on Instagram
+copyright: Copyright &copy; Rob Barrett
+
+extra_css:
+  - styles.css
+
+# extra_javascript:
+  # - https://unpkg.com/@rive-app/canvas
+  # - https://unpkg.com/@rive-app/canvas@2.21.5
+
+nav:
+  - Tools:
+    - index.md
+    - Loopy: Loopy/index.md
+    - MarkerMover: MarkerMover/index.md
+    - Polymorph: Polymorph/index.md
+  - Loopy:
+    - Loopy/index.md
+    - Installation & Support: Loopy/Installation.md
+    - How to use Loopy: Loopy/Instructions.md
+    - Using Loopy with KBar: Loopy/KBar.md
+    - Panel Functions: Loopy/Panel.md
+    - Loop Examples: Loopy/Loop Examples.md
+  - MarkerMover:
+    - MarkerMover/index.md
+    - Installation & Support: MarkerMover/Installation.md
+    - How to use MarkerMover: MarkerMover/Instructions.md
+    - Using MarkerMover with KBar: MarkerMover/KBar.md
+    - Using Marker Triggers: MarkerMover/MarkerTrigger.md
+  - Polymorph:
+    - Polymorph/index.md
+    - Installation & Support: Polymorph/Installation.md
+    - How to use Polymorph: Polymorph/Instructions.md
+    - Examples:
+      - Replace Layers: Polymorph/Replace-Layers.md
+      - Attach Layers: Polymorph/Attach-Layers.md
+      - Re-Use Character Rigs: Polymorph/Character-Rigs.md
+      - Replace Layers in Physics Simulations: Polymorph/Physics-Sims.md
+      - Inherit Scale, Rotation and Opacity from Target layers: Polymorph/Inherit-Scale-Rotation-Opacity.md
+      - Inherit mask from Source or Target layer: Polymorph/Inherit-Mask.md
+      - Inherit track mattes, or use Targets as track mattes: Polymorph/Inherit-Track-Mattes.md
+      - Replace 2D layers with 3D layers: Polymorph/Replace-2D-with-3D.md
+  - Buy Now:
+    - https://aescripts.com/authors/rob-barrett/
+
+watch:
+  - includes
