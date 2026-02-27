@@ -70,7 +70,6 @@ nav:
     - How to use Loopy: Loopy/Instructions.md
     - Using Loopy with KBar: Loopy/KBar.md
     - Panel Functions: Loopy/Panel.md
-    - Loop Examples: Loopy/Loop Examples.md
   - MarkerMover:
     - MarkerMover/index.md
     - Installation & Support: MarkerMover/Installation.md
@@ -79,8 +78,8 @@ nav:
     - Using Marker Triggers: MarkerMover/MarkerTrigger.md
   - Polymorph:
     - Polymorph/index.md
-    - Installation & Support: Polymorph/Installation.md
-    - How to use Polymorph: Polymorph/Instructions.md
+    - Polymorph/Installation.md
+    - Polymorph/Instructions.md
     - Examples:
       - Replace Layers: Polymorph/Replace-Layers.md
       - Attach Layers: Polymorph/Attach-Layers.md

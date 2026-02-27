@@ -6,7 +6,7 @@
 
 **Polymorph allows you to replace any number of layers with the contents of another selected layer.<br/>Want to swap text for pre-comps, shape layers for video footage, or images for 3D objects? No problem!**
 
-<video src="../assets/polymorph/Basketball GIF.mp4" width="100%" autoplay loop></video>
+<video src="../assets/polymorph/Polymorph - Basketball Comparison - COMPRESSED.mp4" width="100%" autoplay loop></video>
 
 Simply select your Source layer first, then any number of Target layers, then click the 'Polymorph' button.
 

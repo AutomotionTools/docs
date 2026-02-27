@@ -1,14 +1,5 @@
 # Loop Examples
 
-Rive below
-
-<canvas id="voting" width="200" height="80" role="spinbutton" aria-valuenow="994" aria-valuetext="994 likes"></canvas>
-<script>
-
-</script>
-
-Rive above
-
 ## Cycle
 
 === "Loop In"
