@@ -1,0 +1,101 @@
+.video-wrapper {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+  }
+  .video-wrapper > iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  div.block {
+    display: block;
+  }
+  span.keyboard {
+    font-size: 1.4em;
+  }
+
+.md-content {
+    padding-bottom: 5em;
+}
+.md-typeset {
+    font-size: 1.4em;
+}
+@font-face {
+    font-family: "Parkinsans", sans-serif;
+    font-weight: 600;
+    src: url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;1,600&display=swap");
+}
+@font-face {
+    font-family: "Parkinsans", sans-serif;
+    font-weight: 300;
+    src: url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;1,300&display=swap");
+}
+.md-typeset {
+    font-family: "Parkinsans" !important;
+}
+.md-typeset h1 {
+    color: #2C347A;
+    font-size: 2.2em;
+    font-weight: 800;
+}
+.md-typeset h2 {
+    color: #2C347A;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+/*.md-typeset h1 strong,
+.md-typeset h2 strong {
+    font-weight: 600;
+}*/
+.md-typeset h3 {
+    /*color: #2380BB;*/
+    font-size: 1.3em;
+    font-weight: 700;
+    border-left: solid 3px #e32e5a;
+    padding-left: 0.75em;
+}
+.nowrap {
+    white-space: nowrap;
+}
+.md-typeset hr {
+    border-bottom: .05rem solid var(--md-default-fg-color--lightest);
+    margin: 2.5em 0 0.5em;
+}
+.md-typeset hr + * {
+    margin-top: 1em;
+}
+.md-nav {
+    line-height: 1.4;
+}
+.md-nav--secondary,
+.md-nav--secondary .md-nav {
+    font-size: .65rem;
+}
+
+header {
+    background-image: url(assets/Automotion\ Grid\ -\ Transparent\ -\ 1920x1080\ -\ Repeat-X.png);
+    background-position: center center;
+    background-size: 40%;
+    background-repeat: repeat;
+    background-color: #2C347A !important;
+}
+nav.md-tabs,
+footer.md-footer { 
+    background-color: #252A5C;
+}
+
+.link_aescripts {
+    border-radius: 8px;
+}
+
+.md-content a {
+    text-decoration: underline;
+}
