@@ -1,0 +1,261 @@
+﻿WEBVTT
+
+00:00:00.200 --> 00:00:05.120
+Usually Polymorph is used to
+replace layers in your comp, but
+
+00:00:05.120 --> 00:00:09.800
+we can actually use this to
+attach layers to Target layers.
+
+00:00:09.800 --> 00:00:12.179
+So here, we've got three Crate layers,
+
+00:00:12.179 --> 00:00:13.279
+each of them animated
+
+00:00:13.279 --> 00:00:13.759
+differently.
+
+00:00:13.759 --> 00:00:16.019
+So Crate 1 is animated only with
+
+00:00:16.019 --> 00:00:19.359
+keyframes, Crate 2 is animated
+
+00:00:19.359 --> 00:00:21.760
+with a looping wiggle expression
+
+00:00:21.760 --> 00:00:23.440
+on the Position, Scale, and
+
+00:00:23.440 --> 00:00:27.019
+Rotation, and Crate 3 has
+
+00:00:27.019 --> 00:00:28.600
+keyframes on Position and
+
+00:00:28.600 --> 00:00:30.839
+Rotation, and both of those have
+
+00:00:30.839 --> 00:00:32.619
+a loopOut("pingpong")
+
+00:00:32.619 --> 00:00:34.740
+expression – so, a mix of
+
+00:00:34.740 --> 00:00:37.560
+keyframed and expression animation.
+
+00:00:38.679 --> 00:00:43.920
+We have this Cat layer here that
+has an expression applied to the
+
+00:00:43.920 --> 00:00:49.560
+Y Position and the Rotation to
+make it do a little dance.
+
+00:00:49.560 --> 00:00:52.079
+So if I play this through now,
+you can see that the crates are
+
+00:00:52.079 --> 00:00:53.719
+all moving differently.
+
+00:00:53.719 --> 00:00:54.960
+The cat is dancing.
+
+00:00:56.439 --> 00:00:59.719
+We want to place a cat in each
+of the crates.
+
+00:01:02.320 --> 00:01:05.769
+So here with Polymorph, there's
+
+00:01:05.769 --> 00:01:06.810
+a few settings that we'll need
+
+00:01:06.810 --> 00:01:08.609
+to set in order to be able to do
+
+00:01:08.609 --> 00:01:09.930
+that.
+
+00:01:09.930 --> 00:01:12.930
+Layer order: We want to make
+sure that the new layer is
+
+00:01:12.930 --> 00:01:14.650
+placed below the Target layer.
+
+00:01:16.329 --> 00:01:18.849
+Layer  parent: Yes, we want to
+make sure that the new layer is
+
+00:01:18.849 --> 00:01:22.650
+parented to the Target layer.
+
+00:01:22.650 --> 00:01:25.849
+Visibility: We want to show the
+Target layer.
+
+00:01:25.849 --> 00:01:27.090
+So the Targets are each of these
+
+00:01:27.090 --> 00:01:28.829
+crates – we don't want to hide
+them,
+
+00:01:28.829 --> 00:01:29.890
+and we don't want to delete
+
+00:01:29.890 --> 00:01:33.370
+them. Expressions:
+
+00:01:33.370 --> 00:01:36.290
+Now as I've said, there are
+expressions applied to some
+
+00:01:36.290 --> 00:01:37.329
+of the crates. And
+
+00:01:37.329 --> 00:01:42.409
+there's an expression – or there
+are expressions – applied to the
+cat.
+
+00:01:42.409 --> 00:01:43.329
+We don't want
+
+00:01:43.329 --> 00:01:45.650
+the crate expressions to be
+
+00:01:45.650 --> 00:01:47.209
+applied to the cat. We want
+
+00:01:47.209 --> 00:01:47.329
+the
+
+00:01:47.329 --> 00:01:50.090
+cats to keep whatever
+expressions are
+
+00:01:50.090 --> 00:01:51.450
+currently in place,
+
+00:01:51.450 --> 00:01:52.870
+so here we want to keep
+
+00:01:52.870 --> 00:01:55.170
+Source expressions only. If I
+
+00:01:55.170 --> 00:01:55.450
+apply
+
+00:01:55.450 --> 00:01:58.409
+that now… We don't need to worry
+about Track Matte here and we
+
+00:01:58.409 --> 00:02:02.810
+don't need to worry about
+Separate Dimensions. Delete
+Source layer:
+
+00:02:02.810 --> 00:02:05.170
+Yeah, we don't need the original
+cat at the end, so
+
+00:02:05.170 --> 00:02:09.020
+I'm just going to click on Yes
+and apply. If I open
+
+00:02:09.020 --> 00:02:12.740
+my settings here quickly, you
+can see that our Source layer is
+
+00:02:12.740 --> 00:02:16.120
+set to be the last selected
+layer. So I'm going
+
+00:02:16.120 --> 00:02:19.740
+to select the three Target
+layers first – so these are our
+three
+
+00:02:19.740 --> 00:02:21.960
+crates. And then also
+
+00:02:21.960 --> 00:02:25.620
+our cat – so the cat is the last
+selected layer; that is going to
+
+00:02:25.620 --> 00:02:27.780
+be our Source. If I come over
+
+00:02:27.780 --> 00:02:31.259
+here now and click on Polymorph,
+straight
+
+00:02:31.259 --> 00:02:32.439
+away you can see
+
+00:02:32.439 --> 00:02:35.300
+that there has been a cat
+created
+
+00:02:35.300 --> 00:02:37.219
+for each of the crates. If I
+
+00:02:37.219 --> 00:02:37.580
+play this
+
+00:02:37.580 --> 00:02:43.560
+now, you can see that the cats
+are attached. Now, because the
+cats
+
+00:02:43.560 --> 00:02:46.020
+are – or the source layers,
+rather – are positioned
+
+00:02:46.020 --> 00:02:47.620
+to wherever the anchor point of
+
+00:02:47.620 --> 00:02:49.259
+the Target layer is,
+
+00:02:49.259 --> 00:02:50.699
+the cats are kind of hidden
+
+00:02:50.699 --> 00:02:51.680
+a little bit, so I'm just going
+
+00:02:51.680 --> 00:02:54.620
+to open up the Position
+properties and
+
+00:02:54.620 --> 00:02:55.860
+drag that up a little.
+
+00:02:57.460 --> 00:02:58.240
+And if I come back to
+
+00:02:58.240 --> 00:02:58.379
+the
+
+00:02:58.379 --> 00:03:03.860
+start, you can see now that we
+have those three crates, each of
+those crates
+
+00:03:03.860 --> 00:03:06.460
+has a cat attached to it, and we
+still have the
+
+00:03:06.460 --> 00:03:10.280
+cat dancing, keeping its
+animation, and the crates are
+keeping all of
+
+00:03:10.280 --> 00:03:12.139
+their respective animations.

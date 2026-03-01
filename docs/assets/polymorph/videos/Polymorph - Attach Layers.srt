@@ -1,0 +1,414 @@
+1
+00:00:00,200 --> 00:00:05,120
+Speaker:
+Usually Polymorph is used to
+replace layers in your comp, but
+
+2
+00:00:05,120 --> 00:00:09,800
+Speaker:
+we can actually use this to
+attach layers to Target layers.
+
+3
+00:00:09,800 --> 00:00:12,179
+Speaker:
+So here, we've got three layers,
+
+4
+00:00:12,179 --> 00:00:13,279
+Speaker:
+each of them animated
+
+5
+00:00:13,279 --> 00:00:13,759
+Speaker:
+differently.
+
+6
+00:00:13,759 --> 00:00:16,019
+Speaker:
+So Crate 1 is animated only with
+
+7
+00:00:16,019 --> 00:00:19,359
+Speaker:
+keyframes, Crate 2 is animated
+
+8
+00:00:19,359 --> 00:00:21,760
+Speaker:
+with a looping wiggle expression
+
+9
+00:00:21,760 --> 00:00:23,440
+Speaker:
+on the Position, Scale, and
+
+10
+00:00:23,440 --> 00:00:27,019
+Speaker:
+Rotation, and Crate 3 has
+
+11
+00:00:27,019 --> 00:00:28,600
+Speaker:
+keyframes on Position and
+
+12
+00:00:28,600 --> 00:00:30,839
+Speaker:
+Rotation, and both of those have
+
+13
+00:00:30,839 --> 00:00:32,619
+Speaker:
+a loopOut("ping pong")
+
+14
+00:00:32,619 --> 00:00:34,740
+Speaker:
+expression – so, a mix of
+
+15
+00:00:34,740 --> 00:00:36,619
+Speaker:
+keyframed and expression
+
+16
+00:00:36,619 --> 00:00:37,560
+Speaker:
+animation.
+
+17
+00:00:38,679 --> 00:00:43,920
+Speaker:
+We have this Cat layer here that
+has an expression applied to the
+
+18
+00:00:43,920 --> 00:00:49,560
+Speaker:
+Y Position and the Rotation to
+make it do a little dance.
+
+19
+00:00:49,560 --> 00:00:52,079
+Speaker:
+So if I play this through now,
+you can see that the crates are
+
+20
+00:00:52,079 --> 00:00:53,719
+Speaker:
+all moving differently.
+
+21
+00:00:53,719 --> 00:00:54,960
+Speaker:
+The cat is dancing.
+
+22
+00:00:56,439 --> 00:00:59,719
+Speaker:
+We want to place a cat in each
+of the crates.
+
+23
+00:01:02,320 --> 00:01:05,769
+Speaker:
+So here with Polymorph, there's
+
+24
+00:01:05,769 --> 00:01:06,810
+Speaker:
+a few settings that we'll need
+
+25
+00:01:06,810 --> 00:01:08,609
+Speaker:
+to set in order to be able to do
+
+26
+00:01:08,609 --> 00:01:09,930
+Speaker:
+that.
+
+27
+00:01:09,930 --> 00:01:12,930
+Speaker:
+Layer order: We want to make
+sure that the new layer is
+
+28
+00:01:12,930 --> 00:01:14,650
+Speaker:
+placed below the Target layer.
+
+29
+00:01:16,329 --> 00:01:18,849
+Speaker:
+Layer  parent: Yes, we want to
+make sure that the new layer is
+
+30
+00:01:18,849 --> 00:01:22,650
+Speaker:
+parented to the Target layer.
+
+31
+00:01:22,650 --> 00:01:25,849
+Speaker:
+Visibility: We want to show the
+Target layer.
+
+32
+00:01:25,849 --> 00:01:27,090
+Speaker:
+So the Targets are each of these
+
+33
+00:01:27,090 --> 00:01:28,829
+Speaker:
+crates – we don't want to hide
+them,
+
+34
+00:01:28,829 --> 00:01:29,890
+Speaker:
+and we don't want to delete
+
+35
+00:01:29,890 --> 00:01:33,370
+Speaker:
+them. Expressions:
+
+36
+00:01:33,370 --> 00:01:36,290
+Speaker:
+Now as I've said, there are
+expressions applied to some
+
+37
+00:01:36,290 --> 00:01:37,329
+Speaker:
+of the crates. And
+
+38
+00:01:37,329 --> 00:01:42,409
+Speaker:
+there's an expression – or there
+are expressions – applied to the
+cat.
+
+39
+00:01:42,409 --> 00:01:43,329
+Speaker:
+We don't want
+
+40
+00:01:43,329 --> 00:01:45,650
+Speaker:
+the crate expressions to be
+
+41
+00:01:45,650 --> 00:01:47,209
+Speaker:
+applied to the cat. We want
+
+42
+00:01:47,209 --> 00:01:47,329
+Speaker:
+the
+
+43
+00:01:47,329 --> 00:01:50,090
+Speaker:
+cats to keep whatever
+expressions are
+
+44
+00:01:50,090 --> 00:01:51,450
+Speaker:
+currently in place,
+
+45
+00:01:51,450 --> 00:01:52,870
+Speaker:
+so here we want to keep
+
+46
+00:01:52,870 --> 00:01:55,170
+Speaker:
+Source expressions only. If I
+
+47
+00:01:55,170 --> 00:01:55,450
+Speaker:
+apply
+
+48
+00:01:55,450 --> 00:01:58,409
+Speaker:
+that now… We don't need to worry
+about Track Matte here and we
+
+49
+00:01:58,409 --> 00:02:02,810
+Speaker:
+don't need to worry about
+Separate Dimensions. Delete
+Source layer:
+
+50
+00:02:02,810 --> 00:02:05,170
+Speaker:
+Yeah, we don't need the original
+cat at the end, so
+
+51
+00:02:05,170 --> 00:02:09,020
+Speaker:
+I'm just going to click on Yes
+and apply. If I open
+
+52
+00:02:09,020 --> 00:02:12,740
+Speaker:
+my settings here quickly, you
+can see that our Source layer is
+
+53
+00:02:12,740 --> 00:02:16,120
+Speaker:
+set to be the last selected
+layer. So I'm going
+
+54
+00:02:16,120 --> 00:02:19,740
+Speaker:
+to select the three Target
+layers first – so these are our
+three
+
+55
+00:02:19,740 --> 00:02:21,960
+Speaker:
+crates. And then also
+
+56
+00:02:21,960 --> 00:02:25,620
+Speaker:
+our cat – so the cat is the last
+selected layer; that is going to
+
+57
+00:02:25,620 --> 00:02:27,780
+Speaker:
+be our Source. If I come over
+
+58
+00:02:27,780 --> 00:02:31,259
+Speaker:
+here now and click on Polymorph,
+straight
+
+59
+00:02:31,259 --> 00:02:32,439
+Speaker:
+away you can see
+
+60
+00:02:32,439 --> 00:02:35,300
+Speaker:
+that there has been a cat
+created
+
+61
+00:02:35,300 --> 00:02:37,219
+Speaker:
+for each of the crates. If I
+
+62
+00:02:37,219 --> 00:02:37,580
+Speaker:
+play this
+
+63
+00:02:37,580 --> 00:02:43,560
+Speaker:
+now, you can see that the cats
+are attached. Now, because the
+cats
+
+64
+00:02:43,560 --> 00:02:46,020
+Speaker:
+are – or the source layers,
+rather – are positioned
+
+65
+00:02:46,020 --> 00:02:47,620
+Speaker:
+to wherever the anchor point of
+
+66
+00:02:47,620 --> 00:02:49,259
+Speaker:
+the Target layer is,
+
+67
+00:02:49,259 --> 00:02:50,699
+Speaker:
+the cats are kind of hidden
+
+68
+00:02:50,699 --> 00:02:51,680
+Speaker:
+a little bit, so I'm just going
+
+69
+00:02:51,680 --> 00:02:54,620
+Speaker:
+to open up the Position
+properties and
+
+70
+00:02:54,620 --> 00:02:55,860
+Speaker:
+drag that up a little.
+
+71
+00:02:57,460 --> 00:02:58,240
+Speaker:
+And if I come back to
+
+72
+00:02:58,240 --> 00:02:58,379
+Speaker:
+the
+
+73
+00:02:58,379 --> 00:03:03,860
+Speaker:
+start, you can see now that we
+have those three crates, each of
+those crates
+
+74
+00:03:03,860 --> 00:03:06,460
+Speaker:
+has a cat attached to it, and we
+still have the
+
+75
+00:03:06,460 --> 00:03:10,280
+Speaker:
+cat dancing, keeping its
+animation, and the crates are
+keeping all of
+
+76
+00:03:10,280 --> 00:03:12,139
+Speaker:
+their respective animations.

@@ -26,7 +26,7 @@ Additionally, transform properties and layer attributes can be applied to speed 
 
 Furthermore, if a source layer is masked, there is no native way for that mask to carry across to Alt-dragged replacements. Polymorph is able to do this, as well as retain the source layer's track matte.
 
-## Some use cases:
+## Some use cases
 
 * Replace any number of shape layers with a replacement shape layer.
 
@@ -43,3 +43,7 @@ Furthermore, if a source layer is masked, there is no native way for that mask t
 * Replace shape layers sent over from [**Overlord**](https://battleaxe.co/overlord){:target="_blank"} with pre-comps – quickly layout in Illustrator, then use Polymorph to put assets into position.
 
 * Attach layers to multiple existing layers, by retaining the visibility of targets and parenting duplicates to the targets.
+
+## Current limitations
+
+If your Source layer has keyframes on inheritable properties (Rotation, Scale, Opacity) or the Position property, they will be removed when applying Polymorph. I plan to add an option to choose to keep Source or Target keyframes in a future update.

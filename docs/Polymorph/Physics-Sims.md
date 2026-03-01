@@ -1,3 +1,5 @@
 # Re-Use Character Rigs
 
-Video here
+!!! note
+    
+    Coming soon

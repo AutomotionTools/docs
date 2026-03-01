@@ -1,12 +1,12 @@
-site_name: Rob Barrett Design - Script Documentation
+site_name: Rob Barrett - Script Documentation
 #site_url: https://docs.rob-barrett.com
-site_url: https://automotiontools.github.io/docs/
+site_url: https://docs.rob-barrett.com
 theme:
   name: material
   language: en
   font:
-    #text: "Parkinsans"
-    #text: "Parkinsans"
+    text: "Parkinsans"
+    text: "Parkinsans"
     code: JetBrains Mono
   palette:
     scheme: default
@@ -54,7 +54,8 @@ copyright: Copyright &copy; Rob Barrett
 extra_css:
   - styles.css
 
-# extra_javascript:
+extra_javascript:
+  - assets/javascript/external-links.js
   # - https://unpkg.com/@rive-app/canvas
   # - https://unpkg.com/@rive-app/canvas@2.21.5
 

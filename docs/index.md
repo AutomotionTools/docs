@@ -1,6 +1,4 @@
-# Automotion
-
-## Tools for After Effects
+# Tools for After Effects
 
 <div class="grid cards" markdown>
 

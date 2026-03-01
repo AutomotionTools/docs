@@ -1,10 +1,23 @@
 # Attach Layers
 
-<video src="../../assets/polymorph/videos/AttachLayers.mp4" width="100%" autoplay loop controls></video>
+<video controls width="100%"><!-- poster="video-thumbnail.jpg"> -->
+  <!-- Video source -->
+  <source src="/docs/assets/polymorph/videos/Polymorph - Attach Layers - COMPRESSED.mp4" type="video/mp4">
+  
+  <!-- SRT subtitle track -->
+  <track 
+    src="/docs/assets/polymorph/videos/Polymorph - Attach Layers.vtt" 
+    kind="subtitles" 
+    srclang="en" 
+    label="English" 
+    default  <!-- Optional: Makes this track default -->
+  >
+  
+  <!-- Fallback for unsupported browsers -->
+  Your browser does not support HTML5 video.
+</video>
 
 ## Required settings
 
 - **Parenting of new layers:** New layer parented to target.
 - **Target visibility:** Show Target layer.
-
-**Note:** The duplicated Source layers will be positioned to match the Anchor Point of each Target layer. In the example above, the anchor points of each the Target layer has been repositioned between each Target's eyes, so that the sunglasses will be placed in the appropriate position.
