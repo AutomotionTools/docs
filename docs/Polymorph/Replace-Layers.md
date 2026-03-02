@@ -1,11 +1,21 @@
 # Replace Layers
 
-<div>
-  <div style="position:relative;padding-top:56.25%;">
-    <iframe src="https://www.youtube.com/embed/yXVATehRxJ4" frameborder="0" allowfullscreen
-      style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-  </div>
-</div>
+<video controls width="100%"><!-- poster="video-thumbnail.jpg"> -->
+  <!-- Video source -->
+  <source src="/docs/assets/polymorph/videos/Polymorph - Replace Layers - COMPRESSED.mp4" type="video/mp4">
+  
+  <!-- SRT subtitle track -->
+  <!--<track 
+    src="/docs/assets/polymorph/videos/Polymorph - Attach Layers.vtt" 
+    kind="subtitles" 
+    srclang="en" 
+    label="English" 
+    default  <!-- Optional: Makes this track default -->
+  >
+  
+  <!-- Fallback for unsupported browsers -->
+  Your browser does not support HTML5 video.
+</video>
 
 !!! note
     
