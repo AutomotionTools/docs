@@ -2,7 +2,7 @@
 
 <video controls width="100%"><!-- poster="video-thumbnail.jpg"> -->
   <!-- Video source -->
-  <source src="/docs/assets/polymorph/videos/Polymorph - Attach Layers - COMPRESSED.mp4" type="video/mp4">
+  <source src="https://docassets.rob-barrett.com/polymorph/Polymorph - Attach Layers - COMPRESSED.mp4" type="video/mp4">
   
   <!-- SRT subtitle track -->
   <track 
