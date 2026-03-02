@@ -49,6 +49,8 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/robbarrett.design
       name: Rob Barrett on Instagram
+  CNAME: docs.rob-barrett.com
+
 copyright: Copyright &copy; Rob Barrett
 
 extra_css:
