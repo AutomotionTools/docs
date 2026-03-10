@@ -66,6 +66,7 @@ nav:
     - index.md
     - Loopy: Loopy/index.md
     - MarkerMover: MarkerMover/index.md
+    - Random Roller: Random-Roller/index.md
     - Polymorph: Polymorph/index.md
   - Loopy:
     - Loopy/index.md
@@ -79,6 +80,12 @@ nav:
     - How to use MarkerMover: MarkerMover/Instructions.md
     - Using MarkerMover with KBar: MarkerMover/KBar.md
     - Using Marker Triggers: MarkerMover/MarkerTrigger.md
+  - Random Roller:
+    - Random-Roller/index.md
+    - Installation & Support: Random-Roller/Installation.md
+    - How to use Random Roller: Random-Roller/Instructions.md
+    - Examples:
+      - Randomly Offset with Quick Offset: Random-Roller/Quick-Offset.md
   - Polymorph:
     - Polymorph/index.md
     - Polymorph/Installation.md
